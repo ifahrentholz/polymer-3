@@ -1,12 +1,12 @@
 import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
 
 import '../headline/headline';
-//import cardStyles from "./card.scss";
+import cardStyles from "./card.scss";
 
 class Card extends PolymerElement {
   static get template() {
     return html([`
-      
+      <style>${cardStyles}</style>
       <div class="box">
         <headline-element text="Die neue Mercedes-AMG E 53 4MATIC+ Limousine."></headline-element>
         <p>
