@@ -5,5 +5,5 @@
 3. npm i
 4. npx webpack
 5. cd dist
-6. python -m SimpleHTTPServer || Windows: python http.server)
-7. open: http://localhost:8000 
+6. python -m SimpleHTTPServer
+7. open: http://localhost:8000
