@@ -1,6 +1,6 @@
 import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
 
-import headlineStyles from "./headline.scss";
+//import headlineStyles from "./headline.scss";
 
 class Headline extends PolymerElement {
   static get properties() {
@@ -14,7 +14,7 @@ class Headline extends PolymerElement {
 
   static get template() {
     return html([`
-      <style>${headlineStyles}</style>
+      
       <h1>[[text]]</h1>
     `]);
   }
