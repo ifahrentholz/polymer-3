@@ -1,6 +1,6 @@
 # Up & Running
 
-1. git clone https://github.com/ifahrentholz/polymer-3.git && $_
+1. git clone https://github.com/ifahrentholz/polymer-3.git
 2. cd polymer-3
 3. npm i
 4. npx webpack
