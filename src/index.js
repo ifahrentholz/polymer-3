@@ -5,7 +5,7 @@ import page from "./templates/page.html";
 import "./components/card/card";
 
 class StartPolymer3 extends PolymerElement {
-  static get properties () {
+  static get properties() {
     return {
       message: {
         type: String,
@@ -22,11 +22,11 @@ class StartPolymer3 extends PolymerElement {
     this.message = 'Hello World! I\'m a Polymer element :)';
   }
 
-  ready(){
+  ready() {
     super.ready();
   }
 
-  static get template () {
+  static get template() {
     return html([`${page}`]);
   }
 }

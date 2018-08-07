@@ -10,20 +10,21 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
     "css-loader": "1.0.0",
     "html-loader": "0.5.5",
     "node-sass": "4.9.2",
     "raw-loader": "0.5.1",
     "sass-loader": "7.0.1",
     "style-loader": "0.22.0",
-    "webpack": "4.16.5",
+    "webpack": "^4.16.5",
     "webpack-cli": "3.1.0"
   },
   "dependencies": {
-    "@babel/core": "7.0.0-beta.56",
-    "@babel/preset-env": "7.0.0-beta.56",
     "@polymer/polymer": "3.0.5",
-    "@webcomponents/webcomponentsjs": "2.0.4",
-    "babel-loader": "7.1.5"
+    "@webcomponents/webcomponentsjs": "2.0.4"
   }
 }
