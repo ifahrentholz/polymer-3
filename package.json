@@ -1,6 +1,6 @@
 {
   "name": "webpack-polymer-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "private": true,
   "scripts": {
@@ -18,13 +18,13 @@
     "html-loader": "0.5.5",
     "node-sass": "4.9.2",
     "raw-loader": "0.5.1",
-    "sass-loader": "7.0.1",
-    "style-loader": "0.22.0",
-    "webpack": "^4.16.5",
+    "sass-loader": "7.1.0",
+    "style-loader": "0.23.0",
+    "webpack": "^4.17.1",
     "webpack-cli": "3.1.0"
   },
   "dependencies": {
     "@polymer/polymer": "3.0.5",
-    "@webcomponents/webcomponentsjs": "2.0.4"
+    "@webcomponents/webcomponentsjs": "2.1.1"
   }
 }
